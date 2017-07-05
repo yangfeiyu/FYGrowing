@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A18F528A1F0D115900EF7BFF /* LJEventTractingDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A18F527B1F0D115900EF7BFF /* LJEventTractingDataManager.m */; };
+		A18F528B1F0D115900EF7BFF /* UIAlertController+EventTracting.m in Sources */ = {isa = PBXBuildFile; fileRef = A18F527D1F0D115900EF7BFF /* UIAlertController+EventTracting.m */; };
+		A18F528C1F0D115A00EF7BFF /* UICollectionView+EventTracting.m in Sources */ = {isa = PBXBuildFile; fileRef = A18F527F1F0D115900EF7BFF /* UICollectionView+EventTracting.m */; };
+		A18F528D1F0D115A00EF7BFF /* UIControl+EventTracting.m in Sources */ = {isa = PBXBuildFile; fileRef = A18F52811F0D115900EF7BFF /* UIControl+EventTracting.m */; };
+		A18F528E1F0D115A00EF7BFF /* UIScrollView+EventTracting.m in Sources */ = {isa = PBXBuildFile; fileRef = A18F52831F0D115900EF7BFF /* UIScrollView+EventTracting.m */; };
+		A18F528F1F0D115A00EF7BFF /* UITableView+EventTracting.m in Sources */ = {isa = PBXBuildFile; fileRef = A18F52851F0D115900EF7BFF /* UITableView+EventTracting.m */; };
+		A18F52901F0D115A00EF7BFF /* UITapGestureRecognizer+EventTracting.m in Sources */ = {isa = PBXBuildFile; fileRef = A18F52871F0D115900EF7BFF /* UITapGestureRecognizer+EventTracting.m */; };
+		A18F52911F0D115A00EF7BFF /* UIViewController+EventTracting.m in Sources */ = {isa = PBXBuildFile; fileRef = A18F52891F0D115900EF7BFF /* UIViewController+EventTracting.m */; };
+		A1DC50CE1F0CB95C00DC402A /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC50CD1F0CB95C00DC402A /* A.m */; };
+		A1DC50D11F0CB96E00DC402A /* B.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC50D01F0CB96E00DC402A /* B.m */; };
+		A1DC50D51F0CB9CE00DC402A /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC50D41F0CB9CE00DC402A /* JRSwizzle.m */; };
+		A1DC50D81F0CBA5900DC402A /* A+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC50D71F0CBA5900DC402A /* A+hook.m */; };
+		A1DC50DB1F0CC7E500DC402A /* B+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC50DA1F0CC7E500DC402A /* B+hook.m */; };
+		A1DC50DF1F0CD03200DC402A /* RSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DC50DE1F0CD03200DC402A /* RSSwizzle.m */; };
+		A1ECC53D1F0B7DF0001B4BCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ECC53C1F0B7DF0001B4BCA /* main.m */; };
+		A1ECC5401F0B7DF0001B4BCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ECC53F1F0B7DF0001B4BCA /* AppDelegate.m */; };
+		A1ECC5431F0B7DF0001B4BCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ECC5421F0B7DF0001B4BCA /* ViewController.m */; };
+		A1ECC5461F0B7DF0001B4BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1ECC5441F0B7DF0001B4BCA /* Main.storyboard */; };
+		A1ECC5481F0B7DF0001B4BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1ECC5471F0B7DF0001B4BCA /* Assets.xcassets */; };
+		A1ECC54B1F0B7DF0001B4BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1ECC5491F0B7DF0001B4BCA /* LaunchScreen.storyboard */; };
+		A1ECC5561F0B7DF0001B4BCA /* FYGrowingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ECC5551F0B7DF0001B4BCA /* FYGrowingTests.m */; };
+		A1ECC5611F0B7DF0001B4BCA /* FYGrowingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ECC5601F0B7DF0001B4BCA /* FYGrowingUITests.m */; };
+		F146D27B8661E8B499626FA2 /* libPods-FYGrowing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 775C431C8CB74EEA70E35488 /* libPods-FYGrowing.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1ECC5521F0B7DF0001B4BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1ECC5301F0B7DF0001B4BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1ECC5371F0B7DF0001B4BCA;
+			remoteInfo = FYGrowing;
+		};
+		A1ECC55D1F0B7DF0001B4BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1ECC5301F0B7DF0001B4BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1ECC5371F0B7DF0001B4BCA;
+			remoteInfo = FYGrowing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D4F43242C979A95A4DB7C6C /* Pods-FYGrowing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYGrowing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYGrowing/Pods-FYGrowing.debug.xcconfig"; sourceTree = "<group>"; };
+		775C431C8CB74EEA70E35488 /* libPods-FYGrowing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FYGrowing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18F527A1F0D115900EF7BFF /* LJEventTractingDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJEventTractingDataManager.h; sourceTree = "<group>"; };
+		A18F527B1F0D115900EF7BFF /* LJEventTractingDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJEventTractingDataManager.m; sourceTree = "<group>"; };
+		A18F527C1F0D115900EF7BFF /* UIAlertController+EventTracting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+EventTracting.h"; sourceTree = "<group>"; };
+		A18F527D1F0D115900EF7BFF /* UIAlertController+EventTracting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+EventTracting.m"; sourceTree = "<group>"; };
+		A18F527E1F0D115900EF7BFF /* UICollectionView+EventTracting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+EventTracting.h"; sourceTree = "<group>"; };
+		A18F527F1F0D115900EF7BFF /* UICollectionView+EventTracting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+EventTracting.m"; sourceTree = "<group>"; };
+		A18F52801F0D115900EF7BFF /* UIControl+EventTracting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+EventTracting.h"; sourceTree = "<group>"; };
+		A18F52811F0D115900EF7BFF /* UIControl+EventTracting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+EventTracting.m"; sourceTree = "<group>"; };
+		A18F52821F0D115900EF7BFF /* UIScrollView+EventTracting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EventTracting.h"; sourceTree = "<group>"; };
+		A18F52831F0D115900EF7BFF /* UIScrollView+EventTracting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EventTracting.m"; sourceTree = "<group>"; };
+		A18F52841F0D115900EF7BFF /* UITableView+EventTracting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+EventTracting.h"; sourceTree = "<group>"; };
+		A18F52851F0D115900EF7BFF /* UITableView+EventTracting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+EventTracting.m"; sourceTree = "<group>"; };
+		A18F52861F0D115900EF7BFF /* UITapGestureRecognizer+EventTracting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+EventTracting.h"; sourceTree = "<group>"; };
+		A18F52871F0D115900EF7BFF /* UITapGestureRecognizer+EventTracting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+EventTracting.m"; sourceTree = "<group>"; };
+		A18F52881F0D115900EF7BFF /* UIViewController+EventTracting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EventTracting.h"; sourceTree = "<group>"; };
+		A18F52891F0D115900EF7BFF /* UIViewController+EventTracting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EventTracting.m"; sourceTree = "<group>"; };
+		A1DC50CC1F0CB95C00DC402A /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
+		A1DC50CD1F0CB95C00DC402A /* A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A.m; sourceTree = "<group>"; };
+		A1DC50CF1F0CB96E00DC402A /* B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B.h; sourceTree = "<group>"; };
+		A1DC50D01F0CB96E00DC402A /* B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B.m; sourceTree = "<group>"; };
+		A1DC50D31F0CB9CE00DC402A /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		A1DC50D41F0CB9CE00DC402A /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		A1DC50D61F0CBA5900DC402A /* A+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "A+hook.h"; sourceTree = "<group>"; };
+		A1DC50D71F0CBA5900DC402A /* A+hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "A+hook.m"; sourceTree = "<group>"; };
+		A1DC50D91F0CC7E500DC402A /* B+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "B+hook.h"; sourceTree = "<group>"; };
+		A1DC50DA1F0CC7E500DC402A /* B+hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "B+hook.m"; sourceTree = "<group>"; };
+		A1DC50DD1F0CD03200DC402A /* RSSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSwizzle.h; sourceTree = "<group>"; };
+		A1DC50DE1F0CD03200DC402A /* RSSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSwizzle.m; sourceTree = "<group>"; };
+		A1ECC5381F0B7DF0001B4BCA /* FYGrowing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYGrowing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1ECC53C1F0B7DF0001B4BCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1ECC53E1F0B7DF0001B4BCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1ECC53F1F0B7DF0001B4BCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1ECC5411F0B7DF0001B4BCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1ECC5421F0B7DF0001B4BCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1ECC5451F0B7DF0001B4BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1ECC5471F0B7DF0001B4BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1ECC54A1F0B7DF0001B4BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1ECC54C1F0B7DF0001B4BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1ECC5511F0B7DF0001B4BCA /* FYGrowingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYGrowingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1ECC5551F0B7DF0001B4BCA /* FYGrowingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYGrowingTests.m; sourceTree = "<group>"; };
+		A1ECC5571F0B7DF0001B4BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1ECC55C1F0B7DF0001B4BCA /* FYGrowingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYGrowingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1ECC5601F0B7DF0001B4BCA /* FYGrowingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYGrowingUITests.m; sourceTree = "<group>"; };
+		A1ECC5621F0B7DF0001B4BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2565704E7E31EF2821102CF /* Pods-FYGrowing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYGrowing.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYGrowing/Pods-FYGrowing.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1ECC5351F0B7DF0001B4BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F146D27B8661E8B499626FA2 /* libPods-FYGrowing.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ECC54E1F0B7DF0001B4BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ECC5591F0B7DF0001B4BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69F83AC18965E440FA7F5A7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D4F43242C979A95A4DB7C6C /* Pods-FYGrowing.debug.xcconfig */,
+				F2565704E7E31EF2821102CF /* Pods-FYGrowing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1DC50D21F0CB9CE00DC402A /* JRSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				A1DC50D31F0CB9CE00DC402A /* JRSwizzle.h */,
+				A1DC50D41F0CB9CE00DC402A /* JRSwizzle.m */,
+			);
+			path = JRSwizzle;
+			sourceTree = "<group>";
+		};
+		A1DC50DC1F0CD03200DC402A /* RSSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				A1DC50DD1F0CD03200DC402A /* RSSwizzle.h */,
+				A1DC50DE1F0CD03200DC402A /* RSSwizzle.m */,
+			);
+			path = RSSwizzle;
+			sourceTree = "<group>";
+		};
+		A1ECC52F1F0B7DF0001B4BCA = {
+			isa = PBXGroup;
+			children = (
+				A1ECC53A1F0B7DF0001B4BCA /* FYGrowing */,
+				A1ECC5541F0B7DF0001B4BCA /* FYGrowingTests */,
+				A1ECC55F1F0B7DF0001B4BCA /* FYGrowingUITests */,
+				A1ECC5391F0B7DF0001B4BCA /* Products */,
+				69F83AC18965E440FA7F5A7D /* Pods */,
+				D545A0E8DC96E37124691226 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1ECC5391F0B7DF0001B4BCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1ECC5381F0B7DF0001B4BCA /* FYGrowing.app */,
+				A1ECC5511F0B7DF0001B4BCA /* FYGrowingTests.xctest */,
+				A1ECC55C1F0B7DF0001B4BCA /* FYGrowingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1ECC53A1F0B7DF0001B4BCA /* FYGrowing */ = {
+			isa = PBXGroup;
+			children = (
+				A1DC50DC1F0CD03200DC402A /* RSSwizzle */,
+				A1DC50D21F0CB9CE00DC402A /* JRSwizzle */,
+				A1ECC56E1F0B7E11001B4BCA /* FYGrowing */,
+				A1ECC53E1F0B7DF0001B4BCA /* AppDelegate.h */,
+				A1ECC53F1F0B7DF0001B4BCA /* AppDelegate.m */,
+				A1ECC5411F0B7DF0001B4BCA /* ViewController.h */,
+				A1ECC5421F0B7DF0001B4BCA /* ViewController.m */,
+				A1ECC5441F0B7DF0001B4BCA /* Main.storyboard */,
+				A1ECC5471F0B7DF0001B4BCA /* Assets.xcassets */,
+				A1ECC5491F0B7DF0001B4BCA /* LaunchScreen.storyboard */,
+				A1ECC54C1F0B7DF0001B4BCA /* Info.plist */,
+				A1ECC53B1F0B7DF0001B4BCA /* Supporting Files */,
+				A1DC50CC1F0CB95C00DC402A /* A.h */,
+				A1DC50CD1F0CB95C00DC402A /* A.m */,
+				A1DC50CF1F0CB96E00DC402A /* B.h */,
+				A1DC50D01F0CB96E00DC402A /* B.m */,
+				A1DC50D61F0CBA5900DC402A /* A+hook.h */,
+				A1DC50D71F0CBA5900DC402A /* A+hook.m */,
+				A1DC50D91F0CC7E500DC402A /* B+hook.h */,
+				A1DC50DA1F0CC7E500DC402A /* B+hook.m */,
+			);
+			path = FYGrowing;
+			sourceTree = "<group>";
+		};
+		A1ECC53B1F0B7DF0001B4BCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1ECC53C1F0B7DF0001B4BCA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1ECC5541F0B7DF0001B4BCA /* FYGrowingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1ECC5551F0B7DF0001B4BCA /* FYGrowingTests.m */,
+				A1ECC5571F0B7DF0001B4BCA /* Info.plist */,
+			);
+			path = FYGrowingTests;
+			sourceTree = "<group>";
+		};
+		A1ECC55F1F0B7DF0001B4BCA /* FYGrowingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1ECC5601F0B7DF0001B4BCA /* FYGrowingUITests.m */,
+				A1ECC5621F0B7DF0001B4BCA /* Info.plist */,
+			);
+			path = FYGrowingUITests;
+			sourceTree = "<group>";
+		};
+		A1ECC56E1F0B7E11001B4BCA /* FYGrowing */ = {
+			isa = PBXGroup;
+			children = (
+				A18F527A1F0D115900EF7BFF /* LJEventTractingDataManager.h */,
+				A18F527B1F0D115900EF7BFF /* LJEventTractingDataManager.m */,
+				A18F527C1F0D115900EF7BFF /* UIAlertController+EventTracting.h */,
+				A18F527D1F0D115900EF7BFF /* UIAlertController+EventTracting.m */,
+				A18F527E1F0D115900EF7BFF /* UICollectionView+EventTracting.h */,
+				A18F527F1F0D115900EF7BFF /* UICollectionView+EventTracting.m */,
+				A18F52801F0D115900EF7BFF /* UIControl+EventTracting.h */,
+				A18F52811F0D115900EF7BFF /* UIControl+EventTracting.m */,
+				A18F52821F0D115900EF7BFF /* UIScrollView+EventTracting.h */,
+				A18F52831F0D115900EF7BFF /* UIScrollView+EventTracting.m */,
+				A18F52841F0D115900EF7BFF /* UITableView+EventTracting.h */,
+				A18F52851F0D115900EF7BFF /* UITableView+EventTracting.m */,
+				A18F52861F0D115900EF7BFF /* UITapGestureRecognizer+EventTracting.h */,
+				A18F52871F0D115900EF7BFF /* UITapGestureRecognizer+EventTracting.m */,
+				A18F52881F0D115900EF7BFF /* UIViewController+EventTracting.h */,
+				A18F52891F0D115900EF7BFF /* UIViewController+EventTracting.m */,
+			);
+			path = FYGrowing;
+			sourceTree = "<group>";
+		};
+		D545A0E8DC96E37124691226 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				775C431C8CB74EEA70E35488 /* libPods-FYGrowing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1ECC5371F0B7DF0001B4BCA /* FYGrowing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1ECC5651F0B7DF0001B4BCA /* Build configuration list for PBXNativeTarget "FYGrowing" */;
+			buildPhases = (
+				8AA8271FCA7DFC5993D15D25 /* [CP] Check Pods Manifest.lock */,
+				A1ECC5341F0B7DF0001B4BCA /* Sources */,
+				A1ECC5351F0B7DF0001B4BCA /* Frameworks */,
+				A1ECC5361F0B7DF0001B4BCA /* Resources */,
+				E35E0A01B248FCCE134701BA /* [CP] Embed Pods Frameworks */,
+				D0053EE3E6291F1B2849465A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYGrowing;
+			productName = FYGrowing;
+			productReference = A1ECC5381F0B7DF0001B4BCA /* FYGrowing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1ECC5501F0B7DF0001B4BCA /* FYGrowingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1ECC5681F0B7DF0001B4BCA /* Build configuration list for PBXNativeTarget "FYGrowingTests" */;
+			buildPhases = (
+				A1ECC54D1F0B7DF0001B4BCA /* Sources */,
+				A1ECC54E1F0B7DF0001B4BCA /* Frameworks */,
+				A1ECC54F1F0B7DF0001B4BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1ECC5531F0B7DF0001B4BCA /* PBXTargetDependency */,
+			);
+			name = FYGrowingTests;
+			productName = FYGrowingTests;
+			productReference = A1ECC5511F0B7DF0001B4BCA /* FYGrowingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1ECC55B1F0B7DF0001B4BCA /* FYGrowingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1ECC56B1F0B7DF0001B4BCA /* Build configuration list for PBXNativeTarget "FYGrowingUITests" */;
+			buildPhases = (
+				A1ECC5581F0B7DF0001B4BCA /* Sources */,
+				A1ECC5591F0B7DF0001B4BCA /* Frameworks */,
+				A1ECC55A1F0B7DF0001B4BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1ECC55E1F0B7DF0001B4BCA /* PBXTargetDependency */,
+			);
+			name = FYGrowingUITests;
+			productName = FYGrowingUITests;
+			productReference = A1ECC55C1F0B7DF0001B4BCA /* FYGrowingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1ECC5301F0B7DF0001B4BCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = FY;
+				TargetAttributes = {
+					A1ECC5371F0B7DF0001B4BCA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W9L8829Y3G;
+						ProvisioningStyle = Automatic;
+					};
+					A1ECC5501F0B7DF0001B4BCA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W9L8829Y3G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1ECC5371F0B7DF0001B4BCA;
+					};
+					A1ECC55B1F0B7DF0001B4BCA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W9L8829Y3G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1ECC5371F0B7DF0001B4BCA;
+					};
+				};
+			};
+			buildConfigurationList = A1ECC5331F0B7DF0001B4BCA /* Build configuration list for PBXProject "FYGrowing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1ECC52F1F0B7DF0001B4BCA;
+			productRefGroup = A1ECC5391F0B7DF0001B4BCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1ECC5371F0B7DF0001B4BCA /* FYGrowing */,
+				A1ECC5501F0B7DF0001B4BCA /* FYGrowingTests */,
+				A1ECC55B1F0B7DF0001B4BCA /* FYGrowingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1ECC5361F0B7DF0001B4BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ECC54B1F0B7DF0001B4BCA /* LaunchScreen.storyboard in Resources */,
+				A1ECC5481F0B7DF0001B4BCA /* Assets.xcassets in Resources */,
+				A1ECC5461F0B7DF0001B4BCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ECC54F1F0B7DF0001B4BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ECC55A1F0B7DF0001B4BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AA8271FCA7DFC5993D15D25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0053EE3E6291F1B2849465A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYGrowing/Pods-FYGrowing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E35E0A01B248FCCE134701BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYGrowing/Pods-FYGrowing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1ECC5341F0B7DF0001B4BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18F528F1F0D115A00EF7BFF /* UITableView+EventTracting.m in Sources */,
+				A18F528B1F0D115900EF7BFF /* UIAlertController+EventTracting.m in Sources */,
+				A1ECC5431F0B7DF0001B4BCA /* ViewController.m in Sources */,
+				A1DC50DB1F0CC7E500DC402A /* B+hook.m in Sources */,
+				A18F528C1F0D115A00EF7BFF /* UICollectionView+EventTracting.m in Sources */,
+				A18F52901F0D115A00EF7BFF /* UITapGestureRecognizer+EventTracting.m in Sources */,
+				A18F528E1F0D115A00EF7BFF /* UIScrollView+EventTracting.m in Sources */,
+				A1DC50DF1F0CD03200DC402A /* RSSwizzle.m in Sources */,
+				A18F528D1F0D115A00EF7BFF /* UIControl+EventTracting.m in Sources */,
+				A1DC50D11F0CB96E00DC402A /* B.m in Sources */,
+				A1ECC5401F0B7DF0001B4BCA /* AppDelegate.m in Sources */,
+				A18F52911F0D115A00EF7BFF /* UIViewController+EventTracting.m in Sources */,
+				A1ECC53D1F0B7DF0001B4BCA /* main.m in Sources */,
+				A1DC50D51F0CB9CE00DC402A /* JRSwizzle.m in Sources */,
+				A1DC50CE1F0CB95C00DC402A /* A.m in Sources */,
+				A1DC50D81F0CBA5900DC402A /* A+hook.m in Sources */,
+				A18F528A1F0D115900EF7BFF /* LJEventTractingDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ECC54D1F0B7DF0001B4BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ECC5561F0B7DF0001B4BCA /* FYGrowingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ECC5581F0B7DF0001B4BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ECC5611F0B7DF0001B4BCA /* FYGrowingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1ECC5531F0B7DF0001B4BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1ECC5371F0B7DF0001B4BCA /* FYGrowing */;
+			targetProxy = A1ECC5521F0B7DF0001B4BCA /* PBXContainerItemProxy */;
+		};
+		A1ECC55E1F0B7DF0001B4BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1ECC5371F0B7DF0001B4BCA /* FYGrowing */;
+			targetProxy = A1ECC55D1F0B7DF0001B4BCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1ECC5441F0B7DF0001B4BCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1ECC5451F0B7DF0001B4BCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1ECC5491F0B7DF0001B4BCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1ECC54A1F0B7DF0001B4BCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1ECC5631F0B7DF0001B4BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1ECC5641F0B7DF0001B4BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1ECC5661F0B7DF0001B4BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D4F43242C979A95A4DB7C6C /* Pods-FYGrowing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W9L8829Y3G;
+				INFOPLIST_FILE = FYGrowing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.FYGrowing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1ECC5671F0B7DF0001B4BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2565704E7E31EF2821102CF /* Pods-FYGrowing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W9L8829Y3G;
+				INFOPLIST_FILE = FYGrowing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.FYGrowing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1ECC5691F0B7DF0001B4BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W9L8829Y3G;
+				INFOPLIST_FILE = FYGrowingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.FYGrowingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYGrowing.app/FYGrowing";
+			};
+			name = Debug;
+		};
+		A1ECC56A1F0B7DF0001B4BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W9L8829Y3G;
+				INFOPLIST_FILE = FYGrowingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.FYGrowingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYGrowing.app/FYGrowing";
+			};
+			name = Release;
+		};
+		A1ECC56C1F0B7DF0001B4BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W9L8829Y3G;
+				INFOPLIST_FILE = FYGrowingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.FYGrowingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FYGrowing;
+			};
+			name = Debug;
+		};
+		A1ECC56D1F0B7DF0001B4BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W9L8829Y3G;
+				INFOPLIST_FILE = FYGrowingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feiyu.FYGrowingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FYGrowing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1ECC5331F0B7DF0001B4BCA /* Build configuration list for PBXProject "FYGrowing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ECC5631F0B7DF0001B4BCA /* Debug */,
+				A1ECC5641F0B7DF0001B4BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1ECC5651F0B7DF0001B4BCA /* Build configuration list for PBXNativeTarget "FYGrowing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ECC5661F0B7DF0001B4BCA /* Debug */,
+				A1ECC5671F0B7DF0001B4BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1ECC5681F0B7DF0001B4BCA /* Build configuration list for PBXNativeTarget "FYGrowingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ECC5691F0B7DF0001B4BCA /* Debug */,
+				A1ECC56A1F0B7DF0001B4BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1ECC56B1F0B7DF0001B4BCA /* Build configuration list for PBXNativeTarget "FYGrowingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ECC56C1F0B7DF0001B4BCA /* Debug */,
+				A1ECC56D1F0B7DF0001B4BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1ECC5301F0B7DF0001B4BCA /* Project object */;
+}
